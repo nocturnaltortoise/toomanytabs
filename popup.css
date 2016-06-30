@@ -1,0 +1,9 @@
+.wrapper{
+  width: 250px;
+  margin: 0 auto;
+}
+
+.wrapper p{
+  font-size: 1em;
+  line-height: 1.4em;
+}

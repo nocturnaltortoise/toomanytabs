@@ -1,0 +1,57 @@
+.main-wrapper{
+  width: 60%;
+  margin: 40px auto;
+  line-height: 1.4em;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.main-wrapper h1 {
+  margin-top: 0;
+}
+
+.main-wrapper > * {
+  margin-bottom: 10px;
+}
+
+label{
+  display: block;
+}
+
+button{
+  color: #fff;
+  background-color: #004da0;
+  border: 0 none;
+  padding: 5px 10px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover, button:focus{
+  background-color: #0072FF;
+}
+
+#status {
+  color: #3FD820;
+}
+
+input{
+  padding: 3px;
+  width: 200px;
+}
+
+@media all and (max-width: 360px){
+  body{
+    width: 250px;
+  }
+
+  .main-wrapper{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border: 0 none;
+  }
+
+  input{
+    width: 80%;
+  }
+}
