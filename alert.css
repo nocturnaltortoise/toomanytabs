@@ -2,4 +2,10 @@
   width: 60%;
   margin: 40px auto;
   text-align: center;
+  font-size: 1.4em;
+}
+
+.tab-number{
+  font-weight: bold;
+  font-size: 1.6em;
 }
